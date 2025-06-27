@@ -1,0 +1,117 @@
+.logo {
+  height: 100px;
+  width:80px;
+  margin-right: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+}
+
+.nav-items > ul { 
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 7px;
+  margin: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.res-logo {
+  width: 100%;
+  height: 60%;
+}
+
+.res-cards {
+  /* padding: 10px; */
+  margin: 10px;
+  width: 200px;
+  /* height: 550px; */
+}
+
+.res-cards:hover {
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.res-container {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  margin: 8px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.login-btn {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  /* background-color: #f0f0f0; */
+  cursor: pointer;
+}
+
+.shimmer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.search {
+  display: flex;
+  width: 40%;
+  height: 9px;
+  margin-right: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.search-btn {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  color: #000;
+  margin-top: 26px;
+  /* padding: 10px  ; */
+}
+
+.home-link {
+  text-decoration: none;
+  color: #000;
+  margin-top: 17px;
+  padding: 10px;
+}
